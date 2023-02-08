@@ -1,55 +1,92 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Devin Cress, Electrical Engineering Student (2025)
+dcress94@vt.edu
+
+Alex Betx, Electrical Engineering Student (2025)
+abetz01@vt.edu
 
 ## Repo Link
-<a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
 
 ## Photo
 {% include youtube.html video="miltuOLWDFQ" %}
 
 ## Mentor
-Josh Sutton, Electrical Engineering 2021
+Richard Gibbons
 
 ## Current Status
-Complete
+Hardware development
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+The Modular Flight Control and Recovery System, or MFCRS, is an ARM-based flight computer for use in high-powered amateur rockets. The computer will continously monitor and log linear acceleration, rotation, altitude, and compass heading, as well as deploy recovery devices and ignite additional stage motors.
+
+As this is a long-term project and we would like to add additional features in the future (namely telemetry), a modular design has been chosen in which multiple boards are stacked and interconnected via header pins. Four header pins will supply 3.3V, ground, and two I2C lines to every board in the stack, allowing new hardware additions without completely redesigning everything.
+
+The MFCRS will eventually be used in the high powered rocket that we are developing alongside this project - the Lima II.
 
 ## Educational Value Added
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+MFCRS is being developed from the ground up and includes IC selection, PCB design, PCB assembly, and firmware design.
 
 ## Tasks
 
-<!-- Your Text Here. See Example above -->
+- Design sensor board.
+- Design battery board.
+- Order sensor and battery boards.
+- Test boards with STM32 development board.
+
+- Design and order main processor board.
+- Develop STM32 firmware.
 
 ## Design Decisions
 
-<!-- Your Text Here. See Example above -->
+- STM32M4 was chosen for its low-cost, performance, and availability.
+- LSM6DSO32XTR was chosen for its acceleration range (+/-32g)
 
 ## Design Misc
 
-<!-- Your Text Here. See Example above -->
+
 
 ## Steps for Documenting Your Design Process
 
 <!-- Your Text Here. See Example above -->
 
 ## BOM + Component Cost
+Sensor Board
+- 1 Accelerometer/gyrometer IC - LSM6DSO32XTR
+- 1 Magnetometer IC - IIS2MDCTR
+- 1 Barometer IC - BMP390
+- 1 4-pin passthrough header
+- 6 100nF 0603 ceramic capacitors
+- 1 220nF 0603 ceramic capacitor
+- 1 10uF 0805 ceramic capacitor
 
-<!-- Your Text Here. See Example above -->
+Battery Board
+- 1 100mAh LiPo battery - ASR00012
+- 1 3v3 low-dropout voltage regulator - LD29080DT33R
+- 1 I2C battery gauge IC - MAX17048
+- 1 LiPo battery charge IC - MCP73832T
+- 1 MicroUSB port - 10118194
+- 1 0603 red LED
+- Various resistors and capacitors (TBD)
+
 
 ## Timeline
 
-<!-- Your Text Here. See Example above -->
+February 2023
+- Design and order sensor and battery boards.
+
+March 2023
+- Test boards via dev board.
+- Begin developing STM32 firmware.
+
+April 2023
+- Design and order main processor board.
+- Continue firmware development.
 
 ## Useful Links
 
-<!-- Your Text Here. See Example above -->
+
 
 ## Log
 
-<!-- Your Text Here. See Example above -->
