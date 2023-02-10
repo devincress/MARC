@@ -1,14 +1,14 @@
 ## Members
-Devin Cress, Electrical Engineering Student (2025)
+Devin Cress, Electrical Engineering (2025)
 dcress94@vt.edu
 
-Alex Betx, Electrical Engineering Student (2025)
+Alex Betx, Electrical Engineering (2025)
 abetz01@vt.edu
 
 ## Repo Link
 
 ## Photo
-{% include youtube.html video="miltuOLWDFQ" %}
+
 
 ## Mentor
 Richard Gibbons
@@ -40,7 +40,7 @@ MFCRS is being developed from the ground up and includes IC selection, PCB desig
 
 ## Design Decisions
 
-- STM32M4 was chosen for its low-cost, performance, and availability.
+- STM32F4 was chosen for its low-cost, performance, and availability.
 - LSM6DSO32XTR was chosen for its acceleration range (+/-32g)
 
 ## Design Misc
@@ -49,7 +49,7 @@ MFCRS is being developed from the ground up and includes IC selection, PCB desig
 
 ## Steps for Documenting Your Design Process
 
-<!-- Your Text Here. See Example above -->
+
 
 ## BOM + Component Cost
 Sensor Board
@@ -62,7 +62,7 @@ Sensor Board
 - 1 10uF 0805 ceramic capacitor
 
 Battery Board
-- 1 100mAh LiPo battery - ASR00012
+- 1 1000mAh LiPo battery - ASR00012
 - 1 3v3 low-dropout voltage regulator - LD29080DT33R
 - 1 I2C battery gauge IC - MAX17048
 - 1 LiPo battery charge IC - MCP73832T
@@ -70,6 +70,14 @@ Battery Board
 - 1 0603 red LED
 - Various resistors and capacitors (TBD)
 
+Main Processor Board
+- 1 STM32F401RET7
+- 1 SRAM IC
+- 1 MicroSD card slot - 104031-0811
+- 3 n-channel MOSFETs
+- 3 screw headers
+- 1 piezo buzzer - CMI-9705-0380-SMT-TR
+- 5 dip switches
 
 ## Timeline
 
@@ -78,6 +86,7 @@ February 2023
 
 March 2023
 - Test boards via dev board.
+- Develop firmware flow diagram.
 - Begin developing STM32 firmware.
 
 April 2023
