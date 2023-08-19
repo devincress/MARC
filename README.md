@@ -8,7 +8,7 @@ abetz01@vt.edu
 ## Repo Link
 
 ## Photo
-
+[<img alt="MARC Logo" width="200px" src="marc_logo.png" />]
 
 ## Mentor
 Richard Gibbons
