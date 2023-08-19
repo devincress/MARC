@@ -2,7 +2,7 @@
 Devin Cress, Electrical Engineering (2025)
 dcress94@vt.edu
 
-Alex Betx, Electrical Engineering (2025)
+Alex Betz, Electrical Engineering (2025)
 abetz01@vt.edu
 
 ## Repo Link
@@ -18,15 +18,15 @@ Hardware development
 
 ## Project Overview
 
-The Modular Flight Control and Recovery System, or MFCRS, is an ARM-based flight computer for use in high-powered amateur rockets. The computer will continously monitor and log linear acceleration, rotation, altitude, and compass heading, as well as deploy recovery devices and ignite additional stage motors.
+The Modular Amateur Rocket Computer, or MARC, is an ARM-based flight computer for use in high-powered amateur rockets. The computer will continously monitor and log linear acceleration, rotation, altitude, and compass heading, as well as deploy recovery devices and ignite additional stage motors.
 
 As this is a long-term project and we would like to add additional features in the future (namely telemetry), a modular design has been chosen in which multiple boards are stacked and interconnected via header pins. Four header pins will supply 3.3V, ground, and two I2C lines to every board in the stack, allowing new hardware additions without completely redesigning everything.
 
-The MFCRS will eventually be used in the high powered rocket that we are developing alongside this project - the Lima II.
+The MARC will eventually be used in the high powered rocket that we are developing alongside this project - the Lima II.
 
 ## Educational Value Added
 
-MFCRS is being developed from the ground up and includes IC selection, PCB design, PCB assembly, and firmware design.
+MARC is being developed from the ground up and includes IC selection, PCB design, PCB assembly, and firmware design.
 
 ## Tasks
 
