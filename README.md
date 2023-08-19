@@ -81,15 +81,13 @@ Main Processor Board
 
 ## Timeline
 
-February 2023
+Fall Semester
 - Design and order sensor and battery boards.
-
-March 2023
 - Test boards via dev board.
 - Develop firmware flow diagram.
 - Begin developing STM32 firmware.
 
-April 2023
+Winter
 - Design and order main processor board.
 - Continue firmware development.
 
