@@ -1,8 +1,9 @@
 # Student Names 
-Henry Forsyth
+Devin Cress
+Alex Betz
 
 # Summary
-This is a testing doc to see if I can pull it into the website
+An ARM-based flight computer for use in high-powered amateur rockets.
 
 # Date Started
-11-16-2000
+08-01-2022
