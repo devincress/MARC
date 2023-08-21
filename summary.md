@@ -1,5 +1,5 @@
 # Student Names 
-Devin Cress
+Devin Cress, 
 Alex Betz
 
 # Summary
