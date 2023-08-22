@@ -11,7 +11,7 @@ abetz01@vt.edu
 <img alt="MARC Logo" width="400px" src="logo_full_darkbg.png" />
 
 ## Mentor
-Richard Gibbons
+Henry Forsyth
 
 ## Current Status
 Hardware development
