@@ -65,7 +65,7 @@ Battery Board
 - 1 1000mAh LiPo battery - ASR00012
 - 1 3v3 low-dropout voltage regulator - LD29080DT33R
 - 1 I2C battery gauge IC - MAX17048
-- 1 LiPo battery charge IC - MCP73832T
+- 1 LiPo battery charge IC - MCP73831T
 - 1 MicroUSB port - 10118194
 - 1 0603 red LED
 - Various resistors and capacitors (TBD)
