@@ -97,8 +97,8 @@ Winter
 
 ## Log
 
-September 2023
+### September 2023
 
 - Completed the power board schematic
   
-<img alt="Power board schematic" width="400px" src="resources/power_board_schematic.png" />
+<img alt="Power board schematic" width="600px" src="resources/power_board_schematic.png" />
