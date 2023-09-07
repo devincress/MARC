@@ -61,14 +61,14 @@ Sensor Board
 - 1 220nF 0603 ceramic capacitor
 - 1 10uF 0805 ceramic capacitor
 
-Battery Board
+Power Board
 - 1 1000mAh LiPo battery - ASR00012
 - 1 3v3 low-dropout voltage regulator - LD29080DT33R
 - 1 I2C battery gauge IC - MAX17048
 - 1 LiPo battery charge IC - MCP73831T
 - 1 MicroUSB port - 10118194
-- 1 0603 red LED
-- Various resistors and capacitors (TBD)
+- 2 0803 LEDs
+- Various resistors and capacitors
 
 Main Processor Board
 - 1 STM32F401RET7
@@ -82,7 +82,7 @@ Main Processor Board
 ## Timeline
 
 Fall Semester
-- Design and order sensor and battery boards.
+- Design and order sensor and power boards.
 - Test boards via dev board.
 - Develop firmware flow diagram.
 - Begin developing STM32 firmware.
@@ -97,3 +97,8 @@ Winter
 
 ## Log
 
+September 2023
+
+- Completed the power board schematic
+  
+<img alt="Power board schematic" width="400px" src="resources/power_board_schematic.png" />
