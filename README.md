@@ -31,7 +31,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 ## Tasks
 
 - Design sensor board.
-- Design battery board.
+- Design power board.
 - Order sensor and battery boards.
 - Test boards with STM32 development board.
 
@@ -81,15 +81,14 @@ Main Processor Board
 
 ## Timeline
 
-Fall Semester
+### Fall Semester
 - Design and order sensor and power boards.
 - Test boards via dev board.
 - Develop firmware flow diagram.
-- Begin developing STM32 firmware.
 
-Winter
+### Winter
 - Design and order main processor board.
-- Continue firmware development.
+- Begin developing STM32 firmware.
 
 ## Useful Links
 
