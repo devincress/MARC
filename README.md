@@ -20,7 +20,7 @@ Hardware development
 
 The Modular Amateur Rocket Computer, or MARC, is an ARM-based flight computer for use in high-powered amateur rockets. The computer will continously monitor and log linear acceleration, rotation, altitude, and compass heading, as well as deploy recovery devices and ignite additional stage motors.
 
-As this is a long-term project and we would like to add additional features in the future (namely telemetry), a modular design has been chosen in which multiple boards are stacked and interconnected via header pins. Four header pins will supply 3.3V, ground, and two I2C lines to every board in the stack, allowing new hardware additions without completely redesigning everything.
+As this is a long-term project and we would like to add additional features in the future (namely telemetry), a modular design has been chosen in which multiple boards are stacked and interconnected via header pins. Five header pins will supply battery voltage, 3.3V, ground, and two I2C lines to every board in the stack, allowing new hardware additions without a complete system redesign.
 
 The MARC will eventually be used in the high powered rocket that we are developing alongside this project - the Lima II.
 
@@ -32,8 +32,9 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 
 - Design sensor board.
 - Design power board.
-- Order sensor and battery boards.
+- Order sensor and power boards.
 - Test boards with STM32 development board.
+- Develop firmware flow diagram.
 
 - Design and order main processor board.
 - Develop STM32 firmware.
