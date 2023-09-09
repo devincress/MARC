@@ -99,5 +99,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 ### September 2023
 
 - Completed the power board schematic
+- Power board PCB is nearly complete
   
-<img alt="Power board schematic" width="450px" src="resources/power_board_schematic.png" /> <img alt="Power board rendering" width="450px" src="resources/Screenshot 2023-09-09 003933.png" />
+<img alt="Power board schematic" width="450px" src="resources/power_board_schematic.png" />
+<img alt="Power board rendering" width="450px" src="resources/Screenshot 2023-09-09 003933.png" />
