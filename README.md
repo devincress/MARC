@@ -41,8 +41,11 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 
 ## Design Decisions
 
+- A stacking design was chosen to simplify testing and to allow for future expansion.
 - STM32F4 was chosen for its low-cost, performance, and availability.
-- LSM6DSO32XTR was chosen for its acceleration range (+/-32g)
+- LSM6DSO32XTR (the accelerometer) was chosen for its acceleration range (+/-32g)
+- BMP390 (the altimeter) was chosen for its low noise and high accuracy.
+- MOLEX DuraClik connectors were chosen for inter-board connections due to their polarization and locking features.
 
 ## Design Misc
 
@@ -57,10 +60,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - 1 Accelerometer/gyrometer IC - LSM6DSO32XTR
 - 1 Magnetometer IC - IIS2MDCTR
 - 1 Barometer IC - BMP390
-- 1 4-pin passthrough header
-- 6 100nF 0603 ceramic capacitors
-- 1 220nF 0603 ceramic capacitor
-- 1 10uF 0805 ceramic capacitor
+- Various resistors and capacitors
 
 ### Power Board
 - 1 1000mAh LiPo battery - ASR00012
