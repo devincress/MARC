@@ -42,8 +42,9 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 ## Design Decisions
 
 - A stacking design was chosen to simplify testing and to allow for future expansion.
+- A round board design makes maximum use of space within the rocket airframe.
 - STM32F4 was chosen for its low-cost, performance, and availability.
-- LSM6DSO32XTR (the accelerometer) was chosen for its acceleration range (+/-32g)
+- LSM6DSO32XTR (the accelerometer) was chosen for its acceleration range (+/-32g).
 - BMP390 (the altimeter) was chosen for its low noise and high accuracy.
 - MOLEX DuraClik connectors were chosen for inter-board connections due to their polarization and locking features.
 
