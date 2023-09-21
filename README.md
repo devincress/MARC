@@ -102,11 +102,10 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - Completed the power board schematic
 - Finalizing power poard PCB design
   
-<img alt="Power board schematic" width="450px" src="resources/Screenshot 2023-09-19 133112.png" />
-<img alt="Power board rendering" width="450px" src="resources/Screenshot 2023-09-21 003631.png" />
+<img alt="Power board schematic" width="45%" src="resources/Screenshot 2023-09-19 133112.png" /> <img alt="Power board rendering" width="45%" src="resources/Screenshot 2023-09-21 003631.png" />
 
 - Completed the sensor board schematic
 - Finalizing sensor board PCB design
 
-<img alt="Power board schematic" width="450px" src="resources/Screenshot 2023-09-21 002121.png" />
-<img alt="Power board rendering" width="450px" src="resources/Screenshot 2023-09-21 002022.png" />
+<img alt="Power board schematic" width="45%" src="resources/Screenshot 2023-09-21 002121.png" />
+<img alt="Power board rendering" width="45%" src="resources/Screenshot 2023-09-21 002022.png" />
