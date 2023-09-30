@@ -30,12 +30,9 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 
 ## Tasks
 
-✓ Design sensor board.
-
-✓ Design power board.
-
-✓ Order sensor and power boards.
-- Test boards with STM32 development board.
+- Assemble power and sensor boards.
+- Bench test power board.
+- Test sensors with STM32 development board.
 - Develop firmware flow diagram.
 
 - Design and order main processor board.
