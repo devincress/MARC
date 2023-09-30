@@ -90,7 +90,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 ## Timeline
 
 ### Fall Semester
-- Design and order sensor and power boards.
+ ✓ Design and order sensor and power boards.
 - Test boards via development board.
 - Develop firmware flow diagram.
 
