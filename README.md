@@ -30,9 +30,9 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 
 ## Tasks
 
-- Design sensor board.
-- Design power board.
-- Order sensor and power boards.
+✓ Design sensor board.
+✓ Design power board.
+✓ Order sensor and power boards.
 - Test boards with STM32 development board.
 - Develop firmware flow diagram.
 
@@ -44,7 +44,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - A stacking design was chosen to simplify testing and to allow for future expansion.
 - A round board design makes maximum use of space within the rocket airframe.
 - STM32F401RET7 was chosen for its low-cost, performance, availability, and SDIO interface.
-- LSM6DSO32XTR (the accelerometer) was chosen for its acceleration range (+/-32g).
+- LSM6DSO32XTR (the accelerometer/gyroscope) was chosen for its acceleration range (+/-32g).
 - BMP390 (the altimeter) was chosen for its low noise and high accuracy.
 - MOLEX DuraClik connectors were chosen for inter-board connections due to their polarization and locking features.
 
@@ -61,6 +61,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - 1 Accelerometer/gyrometer IC - LSM6DSO32XTR
 - 1 Magnetometer IC - IIS2MDCTR
 - 1 Barometer IC - BMP390
+- 2 MOLEX DuraClik connectors
 - Various resistors and capacitors
 
 ### Power Board
@@ -69,17 +70,23 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - 1 I2C battery gauge IC - MAX17048
 - 1 LiPo battery charge IC - MCP73831T
 - 1 MicroUSB port - 10118194
+- 1 Mini toggle switch
 - 2 0803 LEDs
+- 1 Ferrite bead
+- 1 TVS diode
+- 1 PTC fuse
+- 2 5-pin MOLEX DuraClik connectors
+- 1 2-pin MOLEX DuraClick connector
 - Various resistors and capacitors
 
 ### Main Processor Board
 - 1 STM32F401RET7
 - 1 SRAM IC
 - 1 MicroSD card slot - 104031-0811
-- 3 n-channel MOSFETs
-- 3 screw headers
+- 3 n-channel MOSFETs - DMG3402L-7
+- 4 screw headers
 - 1 piezo buzzer - CMI-9705-0380-SMT-TR
-- 5 dip switches
+- 1 5-channel dip switche - DS04-254-1-05BK-SMT
 
 ## Timeline
 
@@ -100,12 +107,12 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 
 ### September 2023
 
-- Completed the power board schematic and PCB
+- Completed the power board schematic and PCB.
 - PCB ordered.
   
 <img alt="Power board rendering" height="350px" src="resources/power_board_v1.0_final.png" /> <img alt="Power board schematic" height="350px" src="resources/Screenshot 2023-09-19 133112.png" />
 
-- Completed the sensor board schematic and PCB
-- PCB ordered
+- Completed the sensor board schematic and PCB.
+- PCB ordered.
 
 <img alt="Sensor board rendering" height="350px" src="resources/sensor_board_v1.0_final.png" /> <img alt="Sensor board schematic" height="350px" src="resources/Screenshot 2023-09-21 002121.png" />
