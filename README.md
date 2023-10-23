@@ -42,7 +42,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 
 - A stacking design was chosen to simplify testing and to allow for future expansion.
 - A round board design makes maximum use of space within the rocket airframe.
-- STM32F401RET7 was chosen for its low-cost, performance, availability, and SDIO interface.
+- STM32L451RET6 (the microcontroller) was chosen for its low-cost, performance, availability, and SDIO interface.
 - LSM6DSO32XTR (the accelerometer/gyroscope) was chosen for its acceleration range (+/-32g).
 - BMP390 (the altimeter) was chosen for its low noise and high accuracy.
 - MOLEX DuraClik connectors were chosen for inter-board connections due to their polarization and locking features.
@@ -64,7 +64,7 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - Various resistors and capacitors
 
 ### Power Board
-- 1 1000mAh LiPo battery - ASR00012
+- 1 500mAh LiPo battery - ASR00012
 - 1 3v3 low-dropout voltage regulator - LD29080DT33R
 - 1 I2C battery gauge IC - MAX17048
 - 1 LiPo battery charge IC - MCP73831T
@@ -79,8 +79,8 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 - Various resistors and capacitors
 
 ### Main Processor Board
-- 1 STM32F401RET7
-- 1 SRAM IC
+- 1 STM32L451RET6
+- 1 flash IC
 - 1 MicroSD card slot - 104031-0811
 - 3 n-channel MOSFETs - DMG3402L-7
 - 4 screw headers
@@ -107,11 +107,11 @@ MARC is being developed from the ground up and includes IC selection, PCB design
 ### September 2023
 
 - Completed the power board schematic and PCB.
-- PCB ordered.
+- PCB and components ordered.
   
 <img alt="Power board rendering" height="350px" src="resources/power_board_v1.0_final.png" /> <img alt="Power board schematic" height="350px" src="resources/Screenshot 2023-09-19 133112.png" />
 
 - Completed the sensor board schematic and PCB.
-- PCB ordered.
+- PCB and components ordered.
 
 <img alt="Sensor board rendering" height="350px" src="resources/sensor_board_v1.0_final.png" /> <img alt="Sensor board schematic" height="350px" src="resources/Screenshot 2023-09-21 002121.png" />
