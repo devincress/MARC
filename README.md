@@ -1,9 +1,6 @@
 ## Members
-Devin Cress, Electrical Engineering (2025)
+Devin Cress, Electrical Engineering
 dcress94@vt.edu
-
-Alex Betz, Electrical Engineering (2025)
-abetz01@vt.edu
 
 ## Repo Link
 
